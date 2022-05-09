@@ -1,0 +1,87 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+/* RESET */
+*{margin: 0; padding: 0;}
+/* ------------- */
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 75%;
+    border: solid 2px #000;
+    display: flex;
+    margin-top: 9%;
+}
+
+img{
+    width: 500px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-field{
+    border: solid 2px rgb(204, 20, 20);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-field{
+    border: solid 2px rgb(63, 204, 20); 
+    width: 550px;  
+}
+
+.img-field img{
+    width: 100%;  
+    background-color: blueviolet;    
+}
+
+.text-content{
+    border: solid 2px rgb(151, 179, 31);
+    width: 80%;
+    height: 350px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    border: solid 2px rgb(122, 26, 66);
+    font-size: 21px;
+    font-family: 'Inter', sans-serifs;
+}
+
+
+.texts{
+    display: flex;
+    border: solid 2px rgb(122, 26, 66);
+    width: 80%;
+    font-family: 'Inter', sans-serifs;
+    margin-top: 20px;
+}
+
+.data{
+    width: 80%;
+    font-family: 'Inter', sans-serifs;
+    display: flex;
+    border: solid 2px rgb(122, 26, 66);
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+
+
+
